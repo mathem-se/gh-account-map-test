@@ -14,8 +14,6 @@ inputs:
 outputs:
   account:  
     description: 'Account ID'
-  domain:
-    description: 'Domain name'    
 runs:
   using: 'node16'
   main: 'dist/index.js' 
